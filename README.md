@@ -55,3 +55,69 @@ Job description successfully received.
 
 ## License
 This project is for educational and demonstration purposes only.
+
+---
+
+# For Tahura — Romantic Next.js Experience 💌
+
+A beautiful, animated single-page Next.js experience deployed on Vercel, created as a heartfelt, apologetic romantic message for Tahura.
+
+## Features
+
+- 🎨 **Awwwards-style design** — white background, red love-themed accents, Great Vibes flirty font
+- 💎 **3D animated heart** — built with Three.js via `@react-three/fiber` + `@react-three/drei`
+- 💖 **Floating heart particles** — lightweight canvas-based animation
+- 📖 **7-step story flow** — smooth Framer Motion transitions between scenes
+- 🎵 **YouTube song embed** — "Tujhe Kitna Chahne Lage" by Arijit Singh
+- ✍️ **Original Urdu shayari** dedicated to Tahura
+- 📱 **Fully responsive** — works beautifully on mobile and desktop
+
+## Story Flow
+
+1. **Splash** — 3D heart + name reveal with shimmer effect
+2. **Hello** — Gentle intro, inviting her to read
+3. **You** — Celebrating her beauty inside and out
+4. **Gift** — The "Taj Mahal in code" message
+5. **Sorry** — Sincere apology; explicitly says she is NOT irritating and NOT delusional
+6. **Us** — Romantic declaration of feelings
+7. **Shayari** — Original Urdu poetry dedicated to Tahura
+8. **Song** — Embedded YouTube song + sign-off
+
+## Running Locally
+
+```bash
+cd for-tahura
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Deploying to Vercel
+
+### One-click deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/thedownface/AI-Agents&root=for-tahura)
+
+### Manual deploy
+
+1. Install the [Vercel CLI](https://vercel.com/docs/cli): `npm i -g vercel`
+2. From the `for-tahura` directory:
+   ```bash
+   vercel --prod
+   ```
+3. Set the **Root Directory** to `for-tahura` in the Vercel project settings.
+
+The app will be live at your Vercel URL (e.g. `https://for-tahura.vercel.app`).
+
+## Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| Next.js 16 (App Router) | Framework |
+| Tailwind CSS v4 | Styling |
+| Three.js + @react-three/fiber | 3D heart scene |
+| @react-three/drei | Float + MeshDistortMaterial helpers |
+| Framer Motion | Page transitions |
+| HTML Canvas | Floating heart particles |
+| Google Fonts (Great Vibes + Lato) | Typography |
