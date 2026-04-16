@@ -377,13 +377,7 @@ export default function Home() {
 
               {/* YouTube embed — "Tujhe Kitna Chahne Lage" */}
               <div className="rounded-2xl overflow-hidden shadow-lg aspect-video w-full">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/Umqb9KENgmk?rel=0&modestbranding=1"
-                  title="Tujhe Kitna Chahne Lage — Arijit Singh"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Kg8_ADYhYWE?si=XbaEz86c45NCCP_y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
 
               <a
